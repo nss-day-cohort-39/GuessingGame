@@ -51,11 +51,11 @@ namespace GuessingGame
 
                     if (userGuessInt > secretNumber)
                     {
-                        Console.WriteLine($"You're guess was too high. You have {guessesAllowed - guessesGiven - 1} more attempt(s)");
+                        Console.WriteLine($"Your guess was too high. You have {guessesAllowed - guessesGiven - 1} more attempt(s)");
                     }
                     else
                     {
-                        Console.WriteLine($"You're guess was too low. You have {guessesAllowed - guessesGiven - 1} more attempt(s)");
+                        Console.WriteLine($"Your guess was too low. You have {guessesAllowed - guessesGiven - 1} more attempt(s)");
                     }
                 }
 
